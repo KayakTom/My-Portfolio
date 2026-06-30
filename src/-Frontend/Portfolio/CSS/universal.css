@@ -1,0 +1,52 @@
+body{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: image-set("../Images/portfolio background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:link{
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+pre{
+    display: inline;
+    font-weight: bold;
+    color:white;
+}
+
+.Title{
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Search{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    /* margin: 10px; */
+}
+
+.generalText{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#headerContainer, #mainContainer{
+    background-image: radial-gradient(#2776EA 25%, #00008B 75% );
+    text-align: center;
+    padding: 10px;
+}

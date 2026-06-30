@@ -1,0 +1,12 @@
+#contactInfo{
+    color:white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contactDetails{
+    text-align:left;
+    border:none;
+}

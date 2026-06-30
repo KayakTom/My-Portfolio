@@ -1,0 +1,62 @@
+#educationRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; justify-content: space-between;
+}
+
+#educationCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+.InstituteOrganisation{
+    width: 40%;
+    border: 5px solid #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#northCave{
+    background: linear-gradient(90deg, #4169E1, #FFFFFF);
+    color: black;
+    align-items: center;
+}
+
+#southHunsley{
+    background: linear-gradient(90deg, #FFFFFF, #E30613);
+    color: black;
+    align-items: center;
+}
+
+#wykeSFC{
+    background: linear-gradient(90deg, #491D6E, #FFFFFF);
+    color: black;
+    align-items: center;
+}
+
+#lancasterUni{
+    background: linear-gradient(90deg, #FFFFFF, #B5121B);
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+#InstitutionIMG{
+    position: relative;
+    border: 7px none;
+}
