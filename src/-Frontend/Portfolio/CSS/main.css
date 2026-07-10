@@ -21,11 +21,14 @@
     display: flex;
     flex-direction: row;
     align-items: center; justify-content: space-between;
-    padding: 30px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #northCave{
@@ -48,6 +51,7 @@
 
 #lancasterUni{
     background: linear-gradient(90deg, #FFFFFF, #B5121B);
+    align-items: center;
 }
 
 #text{
