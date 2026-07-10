@@ -1,0 +1,83 @@
+body{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+a:visited{
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+pre{
+    display: inline;
+    font-weight: bold;
+    color:white;
+}
+
+.Title{
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.Search{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
+.generalText{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#headerContainer, #mainContainer, #leftSplitContainer{
+    background-image: radial-gradient(#2776EA 25%, #00008B 75% );
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+#mainContainer a:link, #leftSplitContainer a:link, #rightSplitContainer a:link{
+    text-decoration: underline;
+}
+
+#blankContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#leftSplitContainer{
+    width: 65%;
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+}
+
+#rightSplitContainer{
+    background-image: radial-gradient(#2776EA 25%, #00008B 75% );
+    text-align: left;
+    width: 30%;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
+}

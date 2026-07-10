@@ -1,0 +1,11 @@
+.videoContainer{
+    background-image: radial-gradient(#2776EA 25%, #00008B 75% );
+    text-align: center;
+    padding: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
