@@ -64,3 +64,23 @@
     position: relative;
     border: 7px none;
 }
+
+h2{
+    text-align: center;
+}
+
+#contactInfoRow{
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+}
+
+#contactInfoCol{
+    padding-left: 20px;
+    padding-right: 20px;
+}
